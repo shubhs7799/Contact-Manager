@@ -1,0 +1,54 @@
+.importExport-btn{
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+  padding-top: 20px;
+  padding-bottom: 10px;
+
+}
+
+.header {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+}
+
+.header .heading, .header .profile-icon {
+  display: flex;
+  align-items: center; 
+}
+
+.search-bar { 
+  display: flex;
+  align-items: center;
+}
+
+.profile-icon {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 70px; 
+  height: 70px;
+  margin-right: 10px; 
+  border-radius: 50%; 
+  overflow: hidden;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-bar {
+  width: 300px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  /* Additional styling here if needed */
+}
+
+.search-bar input {
+  width: 300px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  /* Additional styling here if needed */
+}
