@@ -97,8 +97,6 @@ const ContactList = () => {
 
   return (
     <div>
-      
-     
       <div className="importExport-btn">
       <button>Delete</button>
       <CSVLink data={contacts} className="csv-download-btn">
@@ -109,10 +107,7 @@ const ContactList = () => {
         importCSV={handleCSVInputChange}
         convertCSVJson={convertCSVTOJson}
       />
-
       </div>
- 
-
       <table>
         <thead>
           <tr>
